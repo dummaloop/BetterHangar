@@ -1,0 +1,40 @@
+#billing .content .row.active .more .with-images .item .loaners {
+  color: #bdced4;
+  color: #ffce47b0;
+  font-family: 'Electrolize';
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+#billing .content .row.active .more .with-images .item { 
+  display: flex !important; 
+  flex-direction: row !important;
+}
+#billing .content .hasLoaner { 
+  border: 1px solid #ffce4759 !important;
+}
+#billing .content .row.active.hasLoaner {
+  border-bottom-width: 2px;
+  border-top-width: 2px;
+}
+#billing .content .row.hasLoaner::before {
+  content: 'Has Loaners';
+  position: absolute; 
+  top: 2px; 
+  left: 5px; 
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffce47b0;
+}
+#billing .content .row.active .more .with-images .item .image {
+  max-width: 97px !important;
+  flex: 2 !important;
+}
+#billing .content .row.active .more .with-images .item .text {
+  flex: 1 !important;
+  width: unset !important;
+}
+
